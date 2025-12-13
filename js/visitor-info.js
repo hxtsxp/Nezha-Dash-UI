@@ -171,8 +171,13 @@ function initVisitorInfo() {
       },
       {
         name: "Type",
-        value: data.is_hosting ? "Hosting" : (data.company?.type || "Unknown"),
-        icon: "icon-VPNlianjie",
+        value: (() => {
+          if (data.is_hosting) return "Hosting";
+          const type = data.company?.type?.toLowerCase();
+          const typeMap = { isp: "ISP", business: "Business", education: "Education", hosting: "Hosting" };
+          return typeMap[type] || "Unknown";
+        })(),
+        icon: "icon-tags",
       },
       {
         name: "ASN",
