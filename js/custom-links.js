@@ -7,17 +7,8 @@
 
 // ------------------ 自定义链接配置 ------------------
 window.CustomLinks = JSON.stringify([
-  { link: "https://blog.faiz.hidns.co", name: "Blog", icon: "icon-book" },
-  {
-    link: "https://github.com/kamanfaiz/Nezha-Dash-UI",
-    name: "Github",
-    icon: "icon-github",
-  },
-  {
-    link: "https://uptime.faiz.us.kg",
-    name: "Uptime",
-    icon: "icon-hourglass-start",
-  },
+  { link: "https://blog.675678.xyz", name: "Blog", icon: "icon-book" },
+  { link: "https://nav.675678.xyz", name: "NAV导航", icon: "icon-paper-plane" },
 ]); // 导航栏的自定义链接 (JSON格式), 新增 icon 字段，请确保 icon值为 iconfont.css 中真实存在的 class
 
 // ------------------ 顶部链接图标配置 ------------------
@@ -85,3 +76,4 @@ if (document.readyState === 'loading') {
 } else {
   initCustomLinks();
 }
+
