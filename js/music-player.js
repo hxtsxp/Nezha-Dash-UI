@@ -42,7 +42,7 @@ window.MusicPlayerAPIUrl = "https://music.588945.xyz/api/music/list"; // 自定�
 // 网易云音乐配置（mode为netease时使用）
 window.MusicPlayerNeteaseServer = "netease"; // 音乐服务器类型：netease(网易云), tencent(QQ音乐), kugou(酷狗), xiami(虾米), baidu(百度)
 window.MusicPlayerNeteaseType = "playlist"; // 类型：song(单曲), playlist(歌单), album(专辑), search(搜索), artist(艺术家)
-window.MusicPlayerNeteaseId = "492590034"; // 歌单/专辑/艺术家ID或歌曲ID
+window.MusicPlayerNeteaseId = "2077740130"; // 歌单/专辑/艺术家ID或歌曲ID
 window.MusicPlayerNeteaseAPI = "https://api.injahow.cn/meting/"; // Meting API 地址（可选，默认使用官方API）
 
 window.MusicPlayerDefaultVolume = 0.2; // 默认音量（范围：0-1）
