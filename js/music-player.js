@@ -122,7 +122,7 @@ function initMusicPlayer() {
     border-radius: 50%;
     border: var(--wave-stroke-width, 1.8px) solid var(--wave-color);
     pointer-events: none;
-    display: ; /* 默认隐藏 */
+    display: none; /* 默认隐藏 */
   }
 
   /* 仅在收起状态且播放时显示音波动画 */
